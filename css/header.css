@@ -1,0 +1,63 @@
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.page-header .container {
+  display: flex;
+  align-items: center;
+  max-width: 1158px;
+}
+.page-nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.logo-header {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  font-family: 'Raleway', sans-serif;
+  justify-content: flex-start;
+  margin-right: 76px;
+  padding: 24px 0px;
+}
+.logo-header span {
+  color: #4d5ae5;
+}
+.page-nav-item {
+  font-weight: 500;
+  color: #2e2f42;
+  line-height: 1.5;
+  padding: 24px 0;
+}
+.page-nav-item:active::after {
+  content: "";
+  background-color: #404bbf;
+  display: block;
+  width: 65px;
+  height: 4px;
+  border-radius: 2px;
+  margin-top: 19px;
+}
+.page-nav:hover,
+.page-nav-item:focus,
+.contacts-list-item:hover,
+.contacts-list-item:focus {
+  color: #404bbf;
+}
+.contacts {
+  font-style: normal;
+  margin-left: auto;
+}
+.contacts-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.contacts-list-item {
+  font-weight: 400;
+  color: #434455;
+  line-height: 1.5;
+  padding: 24px 0px;
+}
