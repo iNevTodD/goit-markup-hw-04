@@ -43,8 +43,8 @@
   font-weight: 500;
   color: #ffffff;
 }
-.footer .socials-list-item:hover a,
-.footer .socials-list-item:focus a {
+.footer .socials-list-item a:hover,
+.footer .socials-list-item a:hover {
   background-color: #31d0aa;
 }
 .footer .socials-list {
