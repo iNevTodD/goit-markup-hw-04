@@ -44,7 +44,7 @@
   color: #ffffff;
 }
 .footer .socials-list-item a:hover,
-.footer .socials-list-item a:hover {
+.footer .socials-list-item a:focus {
   background-color: #31d0aa;
 }
 .footer .socials-list {
