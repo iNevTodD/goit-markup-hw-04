@@ -20,9 +20,6 @@
   padding: 32px 16px;
   gap: 8px;
 }
-.team-card-text h3 {
-  margin-bottom: 8px;
-}
 .team-list-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
@@ -46,8 +43,8 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.team .socials-list-item:hover,
-.team .socials-list-item:focus {
+.team .socials-list-item:hover a,
+.team .socials-list-item:focus a{
   background-color: #404BBF;
 }
 

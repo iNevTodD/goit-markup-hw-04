@@ -39,7 +39,14 @@
   gap: 16px;
   margin-left: 120px;
 }
-.footer .socials-list-item:hover,
-.footer .socials-list-item:focus {
-  background-color: #31D0AA;
+.footer-socials-media p{
+  font-size: 500;
+  color: ffffff;
+}
+.footer .socials-list-item:hover a,
+.footer .socials-list-item:focus a {
+  background-color: #31d0aa;
+}
+.footer .socials-list {
+  gap: 16px;
 }
