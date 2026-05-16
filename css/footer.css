@@ -40,8 +40,8 @@
   margin-left: 120px;
 }
 .footer-socials-media p{
-  font-size: 500;
-  color: ffffff;
+  font-weight: 500;
+  color: #ffffff;
 }
 .footer .socials-list-item:hover a,
 .footer .socials-list-item:focus a {

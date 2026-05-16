@@ -43,8 +43,8 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.team .socials-list-item:hover a,
-.team .socials-list-item:focus a{
+.team .socials-list-item:hover,
+.team a:focus{
   background-color: #404BBF;
 }
 
